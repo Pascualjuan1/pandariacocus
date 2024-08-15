@@ -1,0 +1,24 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+main{
+    flex-grow: 1;
+}
+.img-seccion{
+    border-radius: 30px;
+    width: 100%;
+    box-shadow: 5px 5px 25px gray;
+    filter: grayscale(80%);
+  }
+  img:hover{
+    filter: grayscale(0);}
+
+@media all and (max-width: 767px){
+    .banner-Principal{
+        height: 250px;
+        object-fit: cover;
+    }
+}
